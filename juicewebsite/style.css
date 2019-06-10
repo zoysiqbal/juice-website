@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,300,400');
+
+body {
+	margin: 0;
+	background: #FFFFFF;
+	font-family: 'Quicksand', sans-serif;;
+	font-weight: 100;
+}
+
+.container {
+	width: 100%;
+  width: 900px;
+	margin: 0 auto;
+  display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-content: flex-start;
+}
+
+header {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding-left: 60px;
+}
+
+nav {
+  float: right;
+  padding: 50px 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 6px;
+  background-color: #F6F9B4;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 98%;
+}
+
+.title {
+	font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+	font-size: 20px;
+}
+
+.title-red {
+	font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+	font-size: 20px;
+	color: #f44242;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #F6F9B4;
+  border-color: #F6F9B4;
+	color: #101010;
+}

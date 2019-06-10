@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>juice laboratory</title>
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:100,300,400" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <link href="style.css" rel="stylesheet">
+      <script>$(document).ready(function(){
+         $('.slider').slick({
+           infinite: true,
+           autoplay: true,
+         slidesToShow: 4,
+         slidesToScroll: 2,
+         arrows: false
+         });
+         });
+      </script>
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <h1 class="logo"><a href="index.html"><img src="images/logo-low.jpg" width=120px alt="logo"/></a></h1>
+            <nav>
+               <ul>
+                  <li><a href="cart.php">Shop</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="index.php">My Account</a></li>
+                  <li><a href="checkout.php">Bag</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div class="center">
+         <button type="button" class="btn btn-danger">registration successful - please confirm your email address</button>
+      </div>
+      <center>
+         <div class="slider">
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/1.jpg"  width="300px" alt="image of juice 1">
+            </div>
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/2.jpg" width="300px" alt="image of juice 2">
+            </div>
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/3.jpg" width="300px" alt="image of juice 3">
+            </div>
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/4.jpg"  width="300px" alt="image of juice 4">
+            </div>
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/5.jpg"  width="300px" alt="image of juice 5">
+            </div>
+            <div class="col-sm-4">
+               <img class="img-responsive" src="images/6.jpg"  width="300px" alt="image of juice 6">
+            </div>
+         </div>
+         </div>
+      </center>
+      <center>
+         <footer class="container-fluid text-center">
+            <a href="#" title="back to top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+         </footer>
+         <form class="form-inline">
+         <div class="input-group">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <div class="input-group-btn">
+               <button type="button" class="btn btn-danger">subscribe to our newsletter</button>
+            </div>
+         </div>
+      </center>
+   </body>
+</html>
